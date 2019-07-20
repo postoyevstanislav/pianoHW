@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Piano</title>
+</head>
+<body>
+    <div id="piano">
+        <button onclick="play('./sounds/1.mp3')" type="button" id="piano-keys">A</button>
+        <button onclick="play('./sounds/2.mp3')" type="button" id="piano-keys">S</button>
+        <button onclick="play('./sounds/3.mp3')" type="button" id="piano-keys">D</button>
+        <button onclick="play('./sounds/4.mp3')" type="button" id="piano-keys">F</button>
+        <button onclick="play('./sounds/5.mp3')" type="button" id="piano-keys">G</button>
+        <button onclick="play('./sounds/6.mp3')" type="button" id="piano-keys">H</button>
+        <button onclick="play('./sounds/7.mp3')" type="button" id="piano-keys">J</button>
+        <button onclick="play('./sounds/8.mp3')" type="button" id="piano-keys">K</button>
+    </div>
+    <audio id="audio"></audio>
+    <!-- 
+        <audio src="./sounds/1.mp3" id="audio1"></audio>
+        <audio src="./sounds/2.mp3" id="audio2"></audio>
+        <audio src="./sounds/3.mp3" id="audio3"></audio>
+        <audio src="./sounds/4.mp3" id="audio4"></audio>
+        <audio src="./sounds/5.mp3" id="audio5"></audio>
+        <audio src="./sounds/6.mp3" id="audio6"></audio>
+        <audio src="./sounds/7.mp3" id="audio7"></audio>
+        <audio src="./sounds/8.mp3" id="audio8"></audio>
+    -->
+    <script src="./pianoKeys.js"></script>
+</body>
+</html>

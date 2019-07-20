@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+.piano button {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
