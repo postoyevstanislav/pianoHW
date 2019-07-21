@@ -22,8 +22,8 @@ function play(sound){
           audio.play();
  }
 
- function playNote(e){
-    const note = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+ function playNote(n){
+    const note = document.querySelector(`audio[data-key="${n.keyCode}"]`);
           note.play();
  
 }
