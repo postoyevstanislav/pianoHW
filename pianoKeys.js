@@ -17,9 +17,9 @@
 //};
 
 function play(sound){
-    let audio = document.getElementById("audio");
-        audio.setAttribute('src', sound);
-        audio.play();
+    const audio = document.getElementById("audio");
+          audio.setAttribute('src', sound);
+          audio.play();
  }
 
  function playNote(e){
