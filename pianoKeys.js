@@ -21,3 +21,10 @@ function play(sound){
         audio.setAttribute('src', sound);
         audio.play();
  }
+
+ function playNote(e){
+    const note = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+          note.play();
+ 
+}
+window.addEventListener('keydown', playNote);
